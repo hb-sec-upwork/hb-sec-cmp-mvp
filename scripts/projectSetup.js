@@ -4,7 +4,7 @@ const path = require("path");
 const getFolderName = (rootfolder) => {
   const configPath = path.join(
     rootfolder,
-    "exampleSite/hugo.toml"
+    "onetrust/hugo.toml"
   );
   const getConfig = fs.readFileSync(configPath, "utf8");
   const match = getConfig.match(/theme\s*=\s*\[?"([^"\]]+)"\]?/);
@@ -68,7 +68,7 @@ const setupProject = () => {
       }
     });
 
-    const exampleSite = path.join(rootfolder, "exampleSite");
+    const exampleSite = path.join(rootfolder, "onetrust");
     iterateFilesAndFolders(exampleSite, { destinationRoot: rootfolder });
     deleteFolder(exampleSite);
   }
