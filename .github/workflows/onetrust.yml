@@ -55,7 +55,7 @@ jobs:
         run: npm install
 
       - name: Publish to GitHub Pages
-        run: npm run build:onetrust
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
