@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/"
+baseURL = "https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/onetrust"
 languageCode = "en"
 title = "H&B "
 theme = "hb-hugo"

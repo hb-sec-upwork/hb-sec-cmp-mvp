@@ -33,7 +33,7 @@ pages:
   script:
     - npm run project-setup
     - npm run build
-    - echo "SITE BUILT SUCCESSFULLY! LIVE AT https://$GITLAB_USER_LOGIN.gitlab.io/$CI_PROJECT_NAME/"
+    - echo "SITE BUILT SUCCESSFULLY! LIVE AT https://$GITLAB_USER_LOGIN.gitlab.io/$CI_PROJECT_NAME/onetrust"
   artifacts:
     paths:
       - public
