@@ -66,7 +66,7 @@ jobs:
   deploy:
     environment:
       name: github-pages-onetrust
-      url: https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/onetrust
+      url: https://hb-sec-upwork.github.io/onetrust
     runs-on: ubuntu-latest
     needs: build
     steps:
