@@ -1,6 +1,6 @@
 # Content Management MVP - OneTrust Integration
 
-This document aims to explain the process to setup fetching "Marketing Subject Consent" data from OneTrust in H&B AWS
+This document aims to explain the process for fetching "Marketing Subject Consent" data from OneTrust in H&B AWS
 
 ## Table of Contents
 
@@ -137,7 +137,7 @@ Below is the configuration needed in Onetrust to create the API Gateway Integrat
   - Activate the Connection
 ![image](https://github.com/abhicoderx/for_patrick/assets/54671816/bd26f69b-9afe-41a2-baf0-d5a9b6664d34)
 
-This finishes the Intgration creation in OneTrust
+This finishes the Integration creation in OneTrust
 
 ### Testing
 
@@ -813,7 +813,7 @@ Once created, to test the Integration, below needs to be done
 ### Validation
 
 To validate that the Event pushed above is now iwith H&B,
-- Go the the ontrust-subjects) DynamoDB table
+- Go to the ontrust-subjects DynamoDB table
 - Run the query to Check items
 - A new item (with the Event pushed in the test above) should appear in the table as below
   ![image](https://github.com/abhicoderx/for_patrick/assets/54671816/e9a813a8-f5ad-4c9f-b13b-7c524dfc797d)
