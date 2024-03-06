@@ -55,7 +55,7 @@ jobs:
         run: npm install
 
       - name: Publish to GitHub Pages
-        run: npm run build:onetrust
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
@@ -65,11 +65,11 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: github-pages
+      name: github-pages-onetrust
       url: https://hb-sec-upwork.github.io/hb-sec-cmp-mvp/onetrust
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy Dev Branch to GitHub Pages
+      - name: Deploy onetrust Branch to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
