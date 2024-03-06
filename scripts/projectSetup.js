@@ -70,7 +70,7 @@ const setupProject = () => {
 
     const exampleSite = path.join(rootfolder, "onetrust");
     iterateFilesAndFolders(exampleSite, { destinationRoot: rootfolder });
-    //deleteFolder(exampleSite);
+    deleteFolder(exampleSite);
   }
 };
 
