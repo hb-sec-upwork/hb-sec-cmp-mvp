@@ -44,7 +44,13 @@
     </div>
     <div class="row">
       <div class="col-12 text-center py-4">
+        <style>
+          .space-between-elements {
+            margin-right: 10px;
+          }
+        </style>
         {{ site.Params.copyright | markdownify  }}
+        <a class="space-between-elements" href="https://privacyportaltrial.onetrust.com/ui/#/preferences/multipage/login/cccce6d8-ed11-43a5-9101-b56d4228a7fe" target="_blank" rel="noopener noreferrer">Preferences Center</a>
       </div>
     </div>
   </div>
@@ -122,4 +128,5 @@ ga('send', 'pageview');
 }(document, new Date(), "script", "rating-widget.com/"));
 </script>
 <script src="https://privacyportaltrial.onetrust.com/consent-embedded-forms/consent-receipt-scripts/OtFormStub.js" dataId="b661826f-e370-4c00-b9fa-ebb8b1f46e56"></script>
+
 {{ end }}
